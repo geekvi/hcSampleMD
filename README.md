@@ -12,5 +12,7 @@ Once this app is deployed these are the expected relartionships
 - **Widget** (Custom Tab) references **Widget__c** (Custom Object)
 - **BetterView** (Web Link) references **WidgetView** (Visualforce Page) 
 - **WidgetView** (Visualforce Page) references **Widget__c** (Custom Object)
+- **Widget__c-Widget Layout** (Layout) references **BetterView** (Web Link)
+
 
 **NOTE:** We will be adding in the future some tests to assert the above.
