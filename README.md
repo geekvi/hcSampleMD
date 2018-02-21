@@ -10,5 +10,7 @@ Once this app is deployed these are the expected relartionships
 - **Account-Account Layout** (Layout) references **AccountInfo** (Visualforce Page)
 - **AccountInfo** (Visualforce Page) references **Account** (Standard Object)
 - **Widget** (Custom Tab) references **Widget__c** (Custom Object)
+- **BetterView** (Web Link) references **WidgetView** (Visualforce Page) 
+- **WidgetView** (Visualforce Page) references **Widget__c** (Custom Object)
 
 **NOTE:** We will be adding in the future some tests to assert the above.
