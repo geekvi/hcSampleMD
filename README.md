@@ -6,6 +6,8 @@ Is a means to explore exposing the contents of the **RelatedEntity** internal ob
 
 Once this app is deployed these are the expected relartionships
 
+**NOTE:** This app is WIP, further dependency examples are being added ongoing, we are also testing with Dreamhouseapp
+
 - **Widget__c-Widget Layout** (Layout) references **Widget__c** (Custom Object)
 - **Account-Account Layout** (Layout) references **AccountInfo** (Visualforce Page)
 - **AccountInfo** (Visualforce Page) references **Account** (Standard Object)
