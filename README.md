@@ -16,6 +16,9 @@ Once this app is deployed these are the expected relartionships
 - **SomeCode** (Class) references **Account** (Standard Object)
 - **SomeCode** (Class) references **Widget__c** (Custom Object)
 - **WhyMikeRocks** (Custom Field) references **Account** (Standard Object)
+- **Account-Account Marketing Layout** (Layout) references **Account** (Standard Object)
+- **Account-Account Sales Layout** (Layout) references **Account** (Standard Object)
+- **Account-Account Support Layout** (Layout) references **Account** (Standard Object)
 
 
 **NOTE:** We will be adding in the future some tests to assert the above.
