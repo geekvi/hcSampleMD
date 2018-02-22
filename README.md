@@ -13,6 +13,9 @@ Once this app is deployed these are the expected relartionships
 - **BetterView** (Web Link) references **WidgetView** (Visualforce Page) 
 - **WidgetView** (Visualforce Page) references **Widget__c** (Custom Object)
 - **Widget__c-Widget Layout** (Layout) references **BetterView** (Web Link)
+- **SomeCode** (Class) references **Account** (Standard Object)
+- **SomeCode** (Class) references **Widget__c** (Custom Object)
+- **WhyMikeRocks** (Custom Field) references **Account** (Standard Object)
 
 
 **NOTE:** We will be adding in the future some tests to assert the above.
