@@ -47,4 +47,5 @@
         </filters>
         <object>Widget__c</object>
     </recordLookups>
+    <startElementReference>QuerySomething</startElementReference>
 </Flow>
