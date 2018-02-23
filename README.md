@@ -22,6 +22,9 @@ Once this app is deployed these are the expected relartionships
 - **Account-Account Sales Layout** (Layout) references **Account** (Standard Object)
 - **Account-Account Support Layout** (Layout) references **Account** (Standard Object)
 - **myComponent** (Lightning Component) references **MyController** (Class)
+- **MyFlow** (Flow) references **FlowAction** (Class)
+- **MyFlow** (Flow) references **Account** (Standard Object)
+- **MyFlow** (Flow) referneces **Widget__c** (Custom Object)
 
 
 **NOTE:** We will be adding in the future some tests to assert the above.
