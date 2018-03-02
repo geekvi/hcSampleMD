@@ -25,6 +25,8 @@ Once this app is deployed these are the expected relartionships
 - **MyFlow** (Flow) references **FlowAction** (Class)
 - **MyFlow** (Flow) references **Account** (Standard Object)
 - **MyFlow** (Flow) referneces **Widget__c** (Custom Object)
+- **Account.Widget__c** (Custom Field) references **Widget__c** (Custom Object)
+- **Account.Widget_Field__c** (Custom Field) references **Widget__c.SomeFieldOnWidget__c** (Custom Field)
 
 
 **NOTE:** We will be adding in the future some tests to assert the above.
