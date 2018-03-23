@@ -30,6 +30,6 @@ Once this app is deployed these are the expected relartionships
 - **Widget__c-Widget Layout** (Layout) references **Widget__c.SomeFieldOnWidget__c** (Custom Field) 
 - **MyPage (FlexiPage) references **MyComponent** (Lightning Component)
 - **MyTest (ApexClass) references **MyController** (Apex Class)
-
+- **Widget View Action Override** (ActionOverride/CustomObject?) referneces **WidgetView** (Visualforce Page)
 
 **NOTE:** We will be adding in the future some tests to assert the above.
