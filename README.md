@@ -28,6 +28,8 @@ Once this app is deployed these are the expected relartionships
 - **Account.Widget__c** (Custom Field) references **Widget__c** (Custom Object)
 - **Account.Widget_Field__c** (Custom Field) references **Widget__c.SomeFieldOnWidget__c** (Custom Field)
 - **Widget__c-Widget Layout** (Layout) references **Widget__c.SomeFieldOnWidget__c** (Custom Field) 
+- **MyPage (FlexiPage) references **MyComponent** (Lightning Component)
+- **MyTest (ApexClass) references **MyController** (Apex Class)
 
 
 **NOTE:** We will be adding in the future some tests to assert the above.

@@ -1,3 +1,2 @@
-<aura:component controller="MyController">
-
+<aura:component access="global" controller="MyController" implements="flexipage:availableForAllPageTypes">
 </aura:component>	
