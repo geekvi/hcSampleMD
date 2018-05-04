@@ -33,5 +33,9 @@ Once this app is deployed these are the expected relartionships
 - **Widget View Action Override** (ActionOverride/CustomObject?) referneces **WidgetView** (Visualforce Page)
 - **myComponent** (Lightning Component) references **MyResource** (Static Resource)
 - **AccountInfo** (AccountInfo) references **MyResoruce** (Static Resource)
+- **Test** (ValidationRule) references **ObjectA** (Custom Field)
+- **Check2** (ValidationRule) references **ObjectA** (Custom Field)
+- **Check2** (ValidationRule) references **CheckBox** (Custom Field)
+- **ObjectA** (Custom Field, Lookup on ObjectB) references **ObjectA** (Custom Object) - Not Working
 
 **NOTE:** We will be adding in the future some tests to assert the above.
