@@ -37,5 +37,6 @@ Once this app is deployed these are the expected relartionships
 - **Check2** (ValidationRule) references **ObjectA** (Custom Field)
 - **Check2** (ValidationRule) references **CheckBox** (Custom Field)
 - **ObjectA** (Custom Field, Lookup on ObjectB) references **ObjectA** (Custom Object) - Not Working
+- **Test** (Email Template) references **Widget__c.SomeFieldOnWidget__c** (Custom Field)
 
 **NOTE:** We will be adding in the future some tests to assert the above.
