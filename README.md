@@ -38,7 +38,7 @@ Once this app is deployed these are the expected relartionships
 - **Check2** (ValidationRule) references **CheckBox** (Custom Field)
 - **ObjectA** (Custom Field, Lookup on ObjectB) references **ObjectA** (Custom Object) - Not Working
 - **Test** (Email Template) references **Widget__c.SomeFieldOnWidget__c** (Custom Field)
-- **Test** (Custom Metadata Type Record) references **Account** (Standard Entity)
-- **Test2** (Custom Metadata Type Record) references **Widget__c** (Custom Object)
+- **Test** (Custom Metadata Type Record) references **MyCMT** (Custom Metadata Type)
+- **Test2** (Custom Metadata Type Record) references **MyCMT** (Custom Metadata Type)
 
 **NOTE:** We will be adding in the future some tests to assert the above.
