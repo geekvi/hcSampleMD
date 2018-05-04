@@ -20,6 +20,8 @@ sfdx force:org:create -f config/project-scratch-def.json --setalias happysoup --
 
 sfdx force:source:push
 
+sfdx force:data:soql:query --usetoolingapi --query "SELECT MetadataComponentId, MetadataComponentName, MetadataComponentType, RefMetadataComponentId, RefMetadataComponentName, RefMetadataComponentType FROM MetadataComponentDependency Where Not REFMETADATACOMPONENTNAME Like '0%'"
+
 sfdx force:data:soql:query --usetoolingapi --query "SELECT MetadataComponentName, MetadataComponentType FROM MetadataComponentDependency WHERE RefMetadataComponentType = 'ApexClass' And RefMetadataComponentName = 'MyController'" -u happysoup
 
 sfdx force:data:soql:query --usetoolingapi --query "SELECT MetadataComponentName, MetadataComponentType FROM MetadataComponentDependency WHERE RefMetadataComponentType = 'AuraDefinitionBundle' And MetadataComponentType = 'AuraDefinitionBundle'"
