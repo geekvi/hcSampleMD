@@ -6,4 +6,8 @@
         <field>Entity__c</field>
         <value xsi:type="xsd:string">Widget__c</value>
     </values>
+    <values>
+        <field>Field__c</field>
+        <value xsi:type="xsd:string">SomeFieldOnWidget2__c</value>
+    </values>
 </CustomMetadata>

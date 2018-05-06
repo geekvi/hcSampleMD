@@ -1,44 +1,9 @@
 # Happy Soup App
 
-Is a means to explore exposing the contents of the **RelatedEntity** internal object via a [new Tooling API object](https://salesforce.quip.com/MSAiA5FPtemy). Once armed with this API, Salesforce, tooling partners and developers can create solutions that **clear the fog of so called Happy Soup orgs**. Allowing for more constructive discussions around strategies to clean up and adopt better practices (such as Saleforce DX DCP's). One such goal is to use this API to build a **DX Package Composer** tool that provides an interactive means to explore Happy Soup orgs and build **DX DCP** packages in order to assist in migration to DX. Its early days... more to follow...
+- To explore the [new Tooling API object](https://salesforce.quip.com/MSAiA5FPtemy). 
+- Once armed with this API, Salesforce, tooling partners and developers can create solutions that **clear the fog of so called Happy Soup orgs**. Allowing for more constructive discussions around strategies to clean up and adopt better practices (such as Saleforce DX DCP's). 
+- One such goal is to use this API to build a **DX Package Composer** tool that provides an interactive means to explore Happy Soup orgs and build **DX DCP** packages in order to assist in migration to DX. Its early days... more to follow...
 
-## Expected Relationships
+## Relationship Coverage
 
-Once this app is deployed these are the expected relartionships
-
-**NOTE:** This app is WIP, further dependency examples are being added ongoing, we are also testing with Dreamhouseapp
-
-- **Widget__c-Widget Layout** (Layout) references **Widget__c** (Custom Object)
-- **Account-Account Layout** (Layout) references **AccountInfo** (Visualforce Page)
-- **AccountInfo** (Visualforce Page) references **Account** (Standard Object)
-- **Widget** (Custom Tab) references **Widget__c** (Custom Object)
-- **BetterView** (Web Link) references **WidgetView** (Visualforce Page) 
-- **WidgetView** (Visualforce Page) references **Widget__c** (Custom Object)
-- **Widget__c-Widget Layout** (Layout) references **BetterView** (Web Link)
-- **SomeCode** (Class) references **Account** (Standard Object)
-- **SomeCode** (Class) references **Widget__c** (Custom Object)
-- **WhyMikeRocks** (Custom Field) references **Account** (Standard Object)
-- **Account-Account Marketing Layout** (Layout) references **Account** (Standard Object)
-- **Account-Account Sales Layout** (Layout) references **Account** (Standard Object)
-- **Account-Account Support Layout** (Layout) references **Account** (Standard Object)
-- **myComponent** (Lightning Component) references **MyController** (Class)
-- **MyFlow** (Flow) references **FlowAction** (Class)
-- **MyFlow** (Flow) references **Account** (Standard Object)
-- **MyFlow** (Flow) referneces **Widget__c** (Custom Object)
-- **Account.Widget__c** (Custom Field) references **Widget__c** (Custom Object)
-- **Account.Widget_Field__c** (Custom Field) references **Widget__c.SomeFieldOnWidget__c** (Custom Field)
-- **Widget__c-Widget Layout** (Layout) references **Widget__c.SomeFieldOnWidget__c** (Custom Field) 
-- **MyPage (FlexiPage) references **MyComponent** (Lightning Component)
-- **MyTest (ApexClass) references **MyController** (Apex Class)
-- **Widget View Action Override** (ActionOverride/CustomObject?) referneces **WidgetView** (Visualforce Page)
-- **myComponent** (Lightning Component) references **MyResource** (Static Resource)
-- **AccountInfo** (AccountInfo) references **MyResoruce** (Static Resource)
-- **Test** (ValidationRule) references **ObjectA** (Custom Field)
-- **Check2** (ValidationRule) references **ObjectA** (Custom Field)
-- **Check2** (ValidationRule) references **CheckBox** (Custom Field)
-- **ObjectA** (Custom Field, Lookup on ObjectB) references **ObjectA** (Custom Object) - Not Working
-- **Test** (Email Template) references **Widget__c.SomeFieldOnWidget__c** (Custom Field)
-- **Test** (Custom Metadata Type Record) references **MyCMT** (Custom Metadata Type)
-- **Test2** (Custom Metadata Type Record) references **MyCMT** (Custom Metadata Type)
-
-**NOTE:** We will be adding in the future some tests to assert the above.
+Once this app is deployed this [document](https://salesforce.quip.com/sbfVAMVS5xdC) illustrates the dependencies reported.

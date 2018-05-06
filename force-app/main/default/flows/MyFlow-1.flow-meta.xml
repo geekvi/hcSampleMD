@@ -45,6 +45,13 @@
                 <stringValue>bob</stringValue>
             </value>
         </filters>
+        <filters>
+            <field>SomeFieldOnWidget2__c</field>
+            <operator>EqualTo</operator>
+            <value>
+                <stringValue>Fred</stringValue>
+            </value>
+        </filters>
         <object>Widget__c</object>
     </recordLookups>
     <startElementReference>QuerySomething</startElementReference>

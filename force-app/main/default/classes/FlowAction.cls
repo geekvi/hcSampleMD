@@ -8,6 +8,7 @@ public with sharing class FlowAction {
     for (Account account : accounts) {
       accountNames.add(account.Name);
     }
+    MySetting__c s = [select On__c from MySetting__c];
     return accountNames;
   }
 }
