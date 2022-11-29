@@ -8,7 +8,7 @@
         <actionName>FlowAction</actionName>
         <actionType>apex</actionType>
         <connector>
-            <targetReference>ReadyWidget</targetReference>
+            <targetReference>ReadyPlan</targetReference>
         </connector>
     </actionCalls>
     <interviewLabel>MyFlow {!$Flow.CurrentDateTime}</interviewLabel>
@@ -33,8 +33,8 @@
         <object>Account</object>
     </recordLookups>
     <recordLookups>
-        <name>ReadyWidget</name>
-        <label>ReadyWidget</label>
+        <name>ReadyPlan</name>
+        <label>ReadyPlan</label>
         <locationX>202</locationX>
         <locationY>332</locationY>
         <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
@@ -52,7 +52,7 @@
                 <stringValue>Fred</stringValue>
             </value>
         </filters>
-        <object>Widget__c</object>
+        <object>Plan__c</object>
     </recordLookups>
     <startElementReference>QuerySomething</startElementReference>
 </Flow>

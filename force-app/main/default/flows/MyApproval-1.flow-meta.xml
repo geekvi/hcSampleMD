@@ -84,7 +84,7 @@
     <processMetadataValues>
         <name>ObjectType</name>
         <value>
-            <stringValue>Widget__c</stringValue>
+            <stringValue>Plan__c</stringValue>
         </value>
     </processMetadataValues>
     <processMetadataValues>
@@ -113,7 +113,7 @@
         <isCollection>false</isCollection>
         <isInput>true</isInput>
         <isOutput>true</isOutput>
-        <objectType>Widget__c</objectType>
+        <objectType>Plan__c</objectType>
     </variables>
     <variables>
         <name>myVariable_old</name>
@@ -121,7 +121,7 @@
         <isCollection>false</isCollection>
         <isInput>true</isInput>
         <isOutput>false</isOutput>
-        <objectType>Widget__c</objectType>
+        <objectType>Plan__c</objectType>
     </variables>
     <variables>
         <name>myVariable_waitStartTimeVariable</name>

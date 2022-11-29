@@ -5,24 +5,28 @@
         <type>Region</type>
     </flexiPageRegions>
     <flexiPageRegions>
-        <componentInstances>
-            <componentInstanceProperties>
-                <name>decorate</name>
-                <value>true</value>
-            </componentInstanceProperties>
-            <componentInstanceProperties>
-                <name>richTextValue</name>
-                <value>Test</value>
-            </componentInstanceProperties>
-            <componentName>flexipage:richText</componentName>
-            <visibilityRule>
-                <criteria>
-                    <leftValue>{!Record.SomeFieldOnWidget2__c}</leftValue>
-                    <operator>CONTAINS</operator>
-                    <rightValue>Fred</rightValue>
-                </criteria>
-            </visibilityRule>
-        </componentInstances>
+        <itemInstances>
+            <componentInstance>
+                <componentInstanceProperties>
+                    <name>decorate</name>
+                    <value>true</value>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>richTextValue</name>
+                    <value>Test</value>
+                </componentInstanceProperties>
+                <identifier>myrichtest</identifier>
+                <componentName>flexipage:richText</componentName>
+                <visibilityRule>
+                    <criteria>
+                        <leftValue>{!Record.SomeFieldOnWidget2__c}</leftValue>
+                        <operator>CONTAINS</operator>
+                        <rightValue>Fred</rightValue>
+                    </criteria>
+                </visibilityRule>
+            </componentInstance>
+        </itemInstances>
+
         <name>main</name>
         <type>Region</type>
     </flexiPageRegions>
@@ -31,7 +35,7 @@
         <type>Region</type>
     </flexiPageRegions>
     <masterLabel>MyRecordPage</masterLabel>
-    <sobjectType>Widget__c</sobjectType>
+    <sobjectType>Plan__c</sobjectType>
     <template>
         <name>flexipage:recordHomeLeftSidebarTemplateDesktop</name>
     </template>

@@ -1,7 +1,16 @@
 {
-    "orgName": "afawcett Company",
+    "orgName": "Redwoods Insurance Company",
     "edition": "Developer",
-    "orgPreferences" : {
-        "enabled": ["S1DesktopEnabled"]
+    "features": ["Communities"],
+    "settings": {
+        "lightningExperienceSettings": {
+            "enableS1DesktopEnabled": true
+        },
+        "communitiesSettings": {
+            "enableNetworksEnabled": true
+        },
+        "mobileSettings": {
+            "enableS1EncryptedStoragePref2": false
+        }
     }
 }

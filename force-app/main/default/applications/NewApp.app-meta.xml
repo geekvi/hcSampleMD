@@ -4,5 +4,5 @@
     <isNavAutoTempTabsDisabled>false</isNavAutoTempTabsDisabled>
     <isNavPersonalizationDisabled>false</isNavPersonalizationDisabled>
     <label>NewApp</label>
-    <tabs>Widget__c</tabs>
+    <tabs>Plan__c</tabs>
 </CustomApplication>
