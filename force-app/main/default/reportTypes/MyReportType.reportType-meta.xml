@@ -68,4 +68,12 @@
         </columns>
         <masterLabel>Plansx</masterLabel>
     </sections>
+    <sections>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>Product__c</field>
+            <table>Plan__c</table>
+        </columns>
+        <masterLabel>Plans</masterLabel>
+    </sections>
 </ReportType>

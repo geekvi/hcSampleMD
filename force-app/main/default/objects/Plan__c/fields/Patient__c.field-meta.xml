@@ -3,12 +3,12 @@
     <fullName>Patient__c</fullName>
     <deleteConstraint>SetNull</deleteConstraint>
     <externalId>false</externalId>
-    <label>Patient</label>
+    <label>Covered Member</label>
     <referenceTo>Patient__c</referenceTo>
     <relationshipLabel>Widgetsx</relationshipLabel>
     <relationshipName>Widgetsx</relationshipName>
     <required>false</required>
-    <trackHistory>false</trackHistory>
+    <trackHistory>true</trackHistory>
     <trackTrending>false</trackTrending>
     <type>Lookup</type>
 </CustomField>
